@@ -1,0 +1,377 @@
+*
+{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.all
+{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.lcontainer
+{
+    height: 370px;
+    width: 270px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+   z-index: 1;
+    border-radius: 8%;
+}
+.rcontainer
+{
+    height: 370px;
+    width: 290px;
+    text-align: start;
+    margin-left: -35px;
+    border-radius: 8%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+}
+.big
+{
+    margin: 0;
+    padding: 25% 0 0 0 ;
+    color: white;
+    font-size:xxx-large;
+    font-weight: 900;
+    
+}
+.sml
+{
+    padding: 0;
+    margin: 0 0 10px 0;
+    color: hsl(241, 100%, 89%);
+    font-weight: 600;
+    font-size: small;
+}
+.crc
+{
+    border: 0px solid black;
+    border-radius: 100%;
+    height: 140px;
+    width: 140px;
+    margin: auto;
+    background-image: linear-gradient(200deg,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.grt
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.ftr
+{
+    font-weight: 100;
+    color: hsl(241, 100%, 89%);
+    font-size: small;
+    width:180px;
+position: relative;
+}
+.foot
+{
+ display: inline-block;
+}
+.head
+{
+    color: hsl(241, 100%, 89%);
+    font-weight: 600;
+    padding: 20px 0 5px 0;
+    font-size: 18px;
+}
+.rea
+{
+    display: flex;
+    position: relative;
+    margin-right: 20px;
+    height: 40px;
+    margin-left:45px ;
+    background-color: hsl(0, 100%, 67%,10%);
+
+}
+.mid
+{
+    margin: 10px ;
+}
+.rt
+{
+    margin: 10px 0 0 0;
+    position: absolute;
+    padding-left: 160px;
+    font-weight: 800;
+    font-size: 14px;
+}
+.mem{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left:45px ;
+    background-color: hsl(39, 100%, 56%,10%);
+}
+.ver{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left:45px ;
+    background-color: hsl(166, 100%, 37%,10%);
+}
+.vis{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left:45px ;
+    background-color: hsl(234, 85%, 45%,10%);
+}
+img
+{
+    height: 18px;
+    margin: 10px;
+    margin-right: 2px;
+}
+
+.redd
+{
+    color: hsl(0, 100%, 67%);
+    font-weight: 600;
+    font-size: 15px;
+}
+.yel
+{
+    color: hsl(39, 100%, 56%);
+    font-weight: 600;
+    font-size: 15px;
+}
+.gre
+{
+   color: hsl(166, 100%, 37%);
+   font-weight: 600;
+    font-size: 15px;
+}
+.blu
+{
+    color: hsl(234, 85%, 45%);
+    font-weight: 600;
+    font-size: 15px;
+}
+.slash
+{
+    color: grey;
+    padding-left: 2px;
+}
+.btn
+{
+    /* margin: 50px; */
+    margin-top: 30px;
+    margin-left: 55px;
+    height: 45px;
+    width: 210px;
+    background-color: hsl(224, 30%, 27%);
+    border: 1px ;
+}
+.btn-secondary {
+    background-color: hsl(224, 30%, 27%)!important;
+}
+.rhead
+{
+    font-weight: 900;
+    padding-left: 45px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+}
+/* -------------------------------------------------- */
+@media screen and (max-width:540px) {
+    .all
+    {
+        display: grid;
+  justify-content: center;
+  align-items: start;
+  margin-top: 0;
+    }
+    .lcontainer
+{
+    height: 275px;
+    width: 375px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+   z-index: 1;
+    border-radius: 8%;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+}
+.rcontainer
+{
+    height: 370px;
+    width: 375px;
+    text-align: start;
+    margin-left: 0px;
+    border-radius: 8%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+}
+.big
+{
+    margin: 0;
+    padding: 20% 0 0 0 ;
+    color: white;
+    font-size:xxx-large;
+    font-weight: 600;
+    
+}
+.sml
+{
+    padding: 0;
+    margin: 0 0 0 0;
+    color: hsl(241, 100%, 89%);
+    font-weight: 600;
+    font-size: small;
+}
+.crc
+{
+    border: 0px solid black;
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(200deg,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.grt
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.ftr
+{
+    font-weight: 100;
+    color: hsl(241, 100%, 89%);
+    font-size: small;
+    width:210px;
+    position: relative;
+}
+.foot
+{
+ display: inline-block;
+}
+.head
+{
+    color: hsl(241, 100%, 89%);
+    font-weight: 600;
+    padding: 20px 0 5px 0;
+    font-size: 16px;
+}
+.rea
+{
+    display: flex;
+    position: relative;
+    margin-right: 23px;
+    height: 40px;
+    margin-left:22.5px ;
+    background-color: hsl(0, 100%, 67%,10%);
+
+}
+.mid
+{
+    margin: 10px ;
+}
+.rt
+{
+    margin: 10px 0 0 0;
+    position: absolute;
+    padding-left: 260px;
+    font-weight: 800;
+    font-size: 14px;
+}
+.mem{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 23px;
+    margin-left:22.5px ;
+    background-color: hsl(39, 100%, 56%,10%);
+}
+.ver{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 23px;
+    margin-left:22.5px ;
+    background-color: hsl(166, 100%, 37%,10%);
+}
+.vis{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 23px;
+    margin-left:22.5px ;
+    background-color: hsl(234, 85%, 45%,10%);
+}
+img
+{
+    height: 18px;
+    margin: 10px;
+    margin-right: 2px;
+}
+
+.redd
+{
+    color: hsl(0, 100%, 67%);
+    font-weight: 600;
+    font-size: 15px;
+}
+.yel
+{
+    color: hsl(39, 100%, 56%);
+    font-weight: 600;
+    font-size: 15px;
+}
+.gre
+{
+   color: hsl(166, 100%, 37%);
+   font-weight: 600;
+    font-size: 15px;
+}
+.blu
+{
+    color: hsl(234, 85%, 45%);
+    font-weight: 600;
+    font-size: 15px;
+}
+.slash
+{
+    color: grey;
+    padding-left: 2px;
+}
+.btn
+{
+    /* margin: 50px; */
+    margin-top: 30px;
+    margin-left: 23px;
+    height: 45px;
+    width: 330px;
+    background-color: hsl(224, 30%, 27%);
+}
+.btn-secondary {
+    background-color: hsl(224, 30%, 27%)!important;
+}
+.rhead
+{
+    font-weight: 900;
+    padding-left: 22.5px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: hsl(224, 30%, 27%);
+}
+
+}
+
+
